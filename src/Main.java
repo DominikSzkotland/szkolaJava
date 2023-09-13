@@ -19,7 +19,11 @@ public class Main {
         System.out.println(nauczycielS);
         System.out.println(nauczycielW);
         Klasa klasa3P = new Klasa("3P");
+        klasa3P.dodajUczniaDoKlasy(uczen);
+        klasa3P.dodajUczniaDoKlasy(uczen1);
+        klasa3P.dodajUczniaDoKlasy(uczen2);
         Wychowawca nauczycielP = new Wychowawca("Apolonia",70,klasa3P,"technika","muzyka");
         System.out.println(nauczycielP);
+
     }
 }
