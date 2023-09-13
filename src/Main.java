@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
+
         /*Osoba osoba1 = new Osoba();
         osoba1.setImie("janek");
         osoba1.setWiek(-12);
@@ -8,6 +9,7 @@ public class Main {
         System.out.println(osoba1.getWiek());
         Osoba osoba2 = new Osoba( "Dominik",  16);
         System.out.println(osoba2);*/
+        
         Uczen uczen = new Uczen("tomek",7, 234);
         Uczen uczen1 = new Uczen("Ala",8);
         Uczen uczen2 = new Uczen("Ela",6);
