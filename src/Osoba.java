@@ -1,4 +1,6 @@
-public class Osoba {
+public abstract class Osoba {
+//klasa abstrakcyjna nie pozwala na tworzenie jej obiektów
+//pozwala tylko na jej dziedziczenie
     private String imie;
     private int wiek;
 
